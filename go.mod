@@ -1,4 +1,4 @@
-module stat
+module github.com/gistao/stat
 
 go 1.13
 
