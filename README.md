@@ -21,7 +21,7 @@
 
 4.指标的相关性趋势图(指标可配，且可多个指标同时显示在一张图上)
 
-使用方创建http服务，库内置了一个handler，通过接口将handler绑定在使用方的http服务上，当需要查看时，库才会渲染。目标指标通过http的para参数可配，格式为[组]=[指标]，比如http://xx.com/watch?gateway=con_qps&auth=con_qps，注意指标要用别名
+使用方创建http服务，库内置了一个handler，通过接口将handler绑定在使用方的http服务上，当需要查看时，库才会渲染。目标指标通过http的para参数可配，格式为[组]=[指标]，比如http://xx.com/watch?gateway=con_qps&auth=con_qps ，注意指标要用别名
 
 趋势图只保留指标最近的600个点，如果1秒1个点，那么可以监控最近10分钟的趋势，内存不用担心
 # 如何使用
