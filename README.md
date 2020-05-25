@@ -51,6 +51,8 @@ close_qpk=72/s, close_sum=215, TO=686464, WSOF=2059392, WSUP=1372928, conn_val=6
 ```
 趋势图样例
 
+golang把任务抽象成channelA(goroutineA) -> channelB(goroutineB) -> channelC(goroutineC)的pipeline，各自的数量配置是门玄学(比较难)，通过多样例趋势可以直观的观察到程序的运行情况，继而推倒出合理的pipeline配置。
+
 ![image](https://github.com/gistao/blog/blob/master/stat/watch.png)
 
 
