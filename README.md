@@ -32,7 +32,7 @@ go run .
 ```
 
 输出如下
-```
+```json
 2020-05-22 18:53:44.3112294 +0800 CST m=+1.055400101 auth: log=227573/s, psf_qps=72/s, pso=227573/s, psw=227572/s, LOGIN=229035, psf_sum=72, PSW=229034
 2020-05-22 18:53:44.3671937 +0800 CST m=+1.111364401 gateway: close_qps=72/s, to=227572/s, wsof=682716/s, wsup=455144/s, 
 close_qpk=72/s, close_sum=72, TO=229034, WSOF=687102, WSUP=458068, conn_val=229034
