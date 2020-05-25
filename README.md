@@ -51,5 +51,6 @@ close_qpk=72/s, close_sum=215, TO=686464, WSOF=2059392, WSUP=1372928, conn_val=6
 ```
 趋势图样例
 
+![image](https://github.com/gistao/blog/blob/master/stat/watch.png)
 
 
