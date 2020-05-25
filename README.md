@@ -23,7 +23,7 @@
 
 使用方创建http服务，库内置了一个handler，通过接口将handler绑定在使用方的http服务上，当需要查看时，库才会渲染。目标指标通过http的para参数可配，格式为[组]=[指标]，比如http://xx.com/watch?gateway=con_qps&auth=con_qps，注意指标要用别名
 
-启用趋势图功能时，库会对所有指标保留600个点
+趋势图只保留指标最近的600个点，如果1秒1个点，那么可以监控最近10分钟的趋势，内存不用担心
 # 如何使用
 example目录是示例代码
 ```
@@ -49,5 +49,7 @@ close_qpk=72/s, close_sum=215, TO=686464, WSOF=2059392, WSUP=1372928, conn_val=6
 
 {"auth":{"qps":{"log":205616,"psf_qps":70,"pso":205616,"psw":205615},"sum":{"LOGIN":686465,"PSW":686464,"psf_sum":215}},"gateway":{"qps":{"close_qps":70,"to":205615,"wsof":616845,"wsup":411230},"qps_peak":{"close_qpk":71},"sum":{"TO":686464,"WSOF":2059392,"WSUP":1372928,"close_sum":215},"val":{"conn_val":686464}}}
 ```
+趋势图样例
+
 
 
